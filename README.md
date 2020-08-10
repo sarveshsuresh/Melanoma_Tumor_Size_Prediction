@@ -13,19 +13,30 @@ Melanoma is the most dangerous type of skin cancer. Globally, in 2012, it newly 
 Data Description:
 
 Train.csv - 9146 rows x 9 columns
+
 Test.csv - 36584 rows x 8 columns
+
 Sample Submission - Acceptable submission format
  
 
 Attributes Description:
 
 mass_npea:  the mass of the area understudy for melanoma tumor
+
 size_npear: the size of the area understudy for melanoma tumor
+
 malign_ratio: ration of normal to malign surface understudy
+
 damage_size: unrecoverable area of skin damaged by the tumor
+
 exposed_area: total area exposed to the tumor
+
 std_dev_malign: standard deviation of malign skin measurements
+
 err_malign: error in malign skin measurements
+
 malign_penalty: penalty applied due to measurement error in the lab
+
 damage_ratio: the ratio of damage to total spread on the skin
+
 tumor_size: size of melanoma_tumor
